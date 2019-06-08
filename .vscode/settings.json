@@ -1,0 +1,11 @@
+{
+    "python.pythonPath": "/home/nikhil/Desktop/venv_mysql/bin/python3.6", // path to virtual enviroment python.exe
+    "python.autoComplete.extraPaths": [
+        "/home/nikhil/Desktop/venv_mysql/lib/python3.6/site-packages"  // i.e. path to virtual enviroment site-packages
+    ],
+    "python.linting.pylintArgs": [
+        "--load-plugins",
+        "pylint_django"
+    ],
+    "python.linting.pylintEnabled": true
+}
